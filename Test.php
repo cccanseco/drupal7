@@ -2,7 +2,7 @@
 class Test extends PHPUnit_Framework_TestCase
 {
 	public function testOnePlusOne() {
-            $miBlog = new BlogTestCase();
+            $miBlog = BlogTestCase();
             $this->assertEquals($miBlog->testBlog(), true);
   	}
 }
