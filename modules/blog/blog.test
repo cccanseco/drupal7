@@ -90,6 +90,8 @@ class BlogTestCase extends DrupalWebTestCase {
     $this->drupalLogin($this->any_user);
     // Verify the any blog user has access to all the blog nodes.
     $this->verifyBlogs($this->own_user, $node, TRUE);
+    
+    return true;
   }
 
   /**
