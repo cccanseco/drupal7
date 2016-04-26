@@ -3,7 +3,7 @@ class Test extends PHPUnit_Framework_TestCase
 {
 	public function testOnePlusOne() {
             //$this->assertEquals($miBlog->testBlogLLegaTest(), true);
-            $this->assertEquals(testBlogLLegaTest(), TRUE);
+            $this->assertEquals(testBlogLlegaTest(), TRUE);
   	}
 }
 ?>
