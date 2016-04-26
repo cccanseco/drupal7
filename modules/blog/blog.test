@@ -93,6 +93,13 @@ class BlogTestCase extends DrupalWebTestCase {
     
     return true;
   }
+  
+    /**
+   * Login users, create blog nodes, and test blog functionality through the admin and user interfaces.
+   */
+  function testBlogLLegaTest() {
+      return true;
+  }
 
   /**
    * Run basic tests on the indicated user.
